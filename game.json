@@ -1,164 +1,216 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "You wake up in your bed, head aching from a night of gaming. What do you do?\n[[go back to sleep->Your Bedroom ]] \n[[wake up]]",
+      "links": [
+        {
+          "name": "go back to sleep",
+          "link": "Your Bedroom ",
+          "pid": "1"
+        },
+        {
+          "name": "wake up",
+          "link": "wake up",
+          "pid": "2"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Your Bedroom ",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "189"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "You wake up, your head hurts even more than you thought.\n[[go get some asprin]]\n[[turn on the tv and relax]]",
+      "links": [
+        {
+          "name": "go get some asprin",
+          "link": "go get some asprin",
+          "pid": "3"
+        },
+        {
+          "name": "turn on the tv and relax",
+          "link": "turn on the tv and relax",
+          "pid": "4"
+        }
+      ],
+      "name": "wake up",
+      "pid": "2",
+      "position": {
+        "x": "413",
+        "y": "332"
+      }
+    },
+    {
+      "text": "You walk to the bathroom ajacent to your room, you open the mirror to your drug cabinet to grab the asprin, then you shut it. As the mirror shuts, you see a shadow behind you momentarily, peaking from the bathroom door. \n[[go investigate shadow]]\n[[shake it off and lay down in your bed ->turn on the tv and relax]] ",
+      "links": [
+        {
+          "name": "go investigate shadow",
+          "link": "go investigate shadow",
+          "pid": "5"
+        },
+        {
+          "name": "shake it off and lay down in your bed ",
+          "link": "turn on the tv and relax",
+          "pid": "4"
+        }
+      ],
+      "name": "go get some asprin",
+      "pid": "3",
+      "position": {
+        "x": "338",
+        "y": "482"
+      }
+    },
+    {
+      "text": "You lie back down, as you do, you see a shadow peeking in your room out of the corner of your eye. It spooks you. \n[[go investigate the shadow ->go investigate shadow]] \n[[go back to sleep ->Your Bedroom ]] ",
+      "links": [
+        {
+          "name": "go investigate the shadow ",
+          "link": "go investigate shadow",
+          "pid": "5"
+        },
+        {
+          "name": "go back to sleep ",
+          "link": "Your Bedroom ",
+          "pid": "1"
+        }
+      ],
+      "name": "turn on the tv and relax",
+      "pid": "4",
+      "position": {
+        "x": "488",
+        "y": "482"
+      }
+    },
+    {
+      "text": "You peek out of your room to see where the shadow figure went.\n[[go to the basement]]\n[[go upstairs]]\n[[go into the kitchen]]",
+      "links": [
+        {
+          "name": "go to the basement",
+          "link": "go to the basement",
+          "pid": "6"
+        },
+        {
+          "name": "go upstairs",
+          "link": "go upstairs",
+          "pid": "7"
+        },
+        {
+          "name": "go into the kitchen",
+          "link": "go into the kitchen",
+          "pid": "8"
+        }
+      ],
+      "name": "go investigate shadow",
+      "pid": "5",
+      "position": {
+        "x": "263",
+        "y": "632"
+      }
+    },
+    {
+      "text": "You go down the hall and begin to descend your houses old, creaky basement steps. As you continue down, you see the shadow quicklu duck behind a cabinet. \n[[run out of the house]] \n[[approach the shadows hiding area]] ",
+      "links": [
+        {
+          "name": "run out of the house",
+          "link": "run out of the house",
+          "pid": "9"
+        },
+        {
+          "name": "approach the shadows hiding area",
+          "link": "approach the shadows hiding area",
+          "pid": "10"
+        }
+      ],
+      "name": "go to the basement",
+      "pid": "6",
+      "position": {
+        "x": "113",
+        "y": "782"
+      }
+    },
+    {
+      "text": "You walk around the corner and begin to ascend your houses old, creaky stairs into the upstairs loft. As you go upstairs, you see the shadow quickly duck behind a drawer.\n[[run out of the house]] \n[[approach the shadows hiding area]] ",
+      "links": [
+        {
+          "name": "run out of the house",
+          "link": "run out of the house",
+          "pid": "9"
+        },
+        {
+          "name": "approach the shadows hiding area",
+          "link": "approach the shadows hiding area",
+          "pid": "10"
+        }
+      ],
+      "name": "go upstairs",
+      "pid": "7",
+      "position": {
+        "x": "263",
+        "y": "782"
+      }
+    },
+    {
+      "text": "You walk down the hallway and into the kitchen. You see the shadow figure duck behind a cabitnet.\n[[run out of the house]]\n[[approach the shadows hiding area]]",
+      "links": [
+        {
+          "name": "run out of the house",
+          "link": "run out of the house",
+          "pid": "9"
+        },
+        {
+          "name": "approach the shadows hiding area",
+          "link": "approach the shadows hiding area",
+          "pid": "10"
+        }
+      ],
+      "name": "go into the kitchen",
+      "pid": "8",
+      "position": {
+        "x": "412",
+        "y": "782"
+      }
+    },
+    {
+      "text": "You throw your hands up, flailing them around as you run out the front door of your house,and you smack your head on the glass screen you forgot to open. The shadow approaches you from behind...\n[[oh god what is it]]",
+      "links": [
+        {
+          "name": "oh god what is it",
+          "link": "oh god what is it",
+          "pid": "11"
+        }
+      ],
+      "name": "run out of the house",
+      "pid": "9",
+      "position": {
+        "x": "337",
+        "y": "932"
+      }
+    },
+    {
+      "text": "You peak around the corner... BAM!!! Your little brother jumps out in a black blanket. You really need to remember that you were asked to baby sit.",
+      "name": "approach the shadows hiding area",
+      "pid": "10",
+      "position": {
+        "x": "487",
+        "y": "932"
+      }
+    },
+    {
+      "text": "You close your eyes, waiting for the inevitable horror...BAM!!! Your little brother jumps out in a black blanket. You really need to remember that you were asked to baby sit.",
+      "name": "oh god what is it",
+      "pid": "11",
+      "position": {
+        "x": "337",
+        "y": "1082"
+      }
+    }
+  ],
+  "name": "Epic Gamer Game ",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "F82632DC-C6D9-488D-B334-824648390831"
+}
